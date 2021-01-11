@@ -1,0 +1,26 @@
+[data-type="transactions"] {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.transactions-header{
+    margin: 20px; 
+    text-align: center;
+    font-weight: 800;
+}
+
+.transaction {
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  padding: 30px;
+  border-radius: 10px;
+  /* width: fit-content; */
+  min-width: 400px;;
+}
+
+[data-amount="transaction-amount"] span,
+[data-account-id="transaction-account-id"],
+[data-balance="current-account-balance"] {
+  font-weight: 600;
+}

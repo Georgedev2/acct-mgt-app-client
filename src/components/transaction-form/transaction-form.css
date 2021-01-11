@@ -1,0 +1,38 @@
+[data-type="transaction-form"] {
+  border: 1px solid #6fbbd3;
+  width: fit-content;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+.Transaction-form-title{
+    text-align: center;
+    font-weight: 800;
+}
+
+.input-box {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.input-box > label {
+ color: #6fbbd3;
+}
+
+[data-type="account-id"],
+[data-type="amount"] {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+[data-type="account-id"]:focus,
+[data-type="amount"]:focus {
+  outline-color: #6fbbd3;
+}
+.submit-btn{
+    cursor: pointer;
+}
